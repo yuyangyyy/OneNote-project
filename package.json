@@ -1,0 +1,17 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "create a todo list use api and mysql",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yang",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.0",
+    "dotenv": "^8.2.0",
+    "mysql2": "^2.2.5"
+  }
+}
